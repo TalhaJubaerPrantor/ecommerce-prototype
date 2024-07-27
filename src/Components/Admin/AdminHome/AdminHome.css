@@ -1,0 +1,8 @@
+.admin-home{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.admin{
+    padding-left: 10px;
+    
+}

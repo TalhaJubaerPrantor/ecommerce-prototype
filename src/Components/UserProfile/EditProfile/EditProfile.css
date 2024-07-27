@@ -1,0 +1,25 @@
+.edit-profile{
+    min-height: 100vh;
+    /* background:lawngreen; */
+    margin: 5%;
+    padding: 5%;
+
+}
+
+.profile-element{
+    font-size: 25px;
+}
+
+.update-btn{
+    border:2px solid green;
+    background: green;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+.update-btn:focus{
+    background-color: greenyellow;
+    border:2px solid green;
+    color: #fff;
+}

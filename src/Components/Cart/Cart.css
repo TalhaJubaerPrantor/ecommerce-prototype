@@ -1,0 +1,27 @@
+.cheakout{
+    margin: 2%;
+}
+
+.order-item{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.delete-btn{
+    border:2px solid red;
+    background: red;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+.delete-btn:focus{
+    background-color: black;
+    color: #fff;
+}

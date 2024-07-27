@@ -1,0 +1,12 @@
+.signUp-container{
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    padding: 70px;
+}
+
+.sign-up{
+    display: grid;
+    width: 220px;
+    align-items: center;
+}

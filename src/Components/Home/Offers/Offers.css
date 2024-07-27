@@ -1,0 +1,10 @@
+.offers-container{
+    height: 50px;
+    height: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: black;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.admin-nav{   
+    display: grid;
+    grid-template-columns:100% ;
+    /* grid-row-gap: 2px;
+    grid-column-gap: 2px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100vh;
+    padding-left: 5px;
+    padding-right: 5px; */
+    height: 100vh;
+    background: #353b3b;
+}
+
+.nav-element{
+    text-decoration: none;
+    background: #353b3b;
+    color: white;
+    /* height: 30px; */
+    text-align: center;
+    padding-top:10px ;
+}

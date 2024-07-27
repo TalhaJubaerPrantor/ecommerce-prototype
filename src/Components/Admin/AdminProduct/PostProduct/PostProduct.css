@@ -1,0 +1,45 @@
+.postProduct-container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.post-delete{
+    width: 320px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    background: #353535;
+    color: white
+}
+
+.postProduct{
+    padding-left: 10px;
+}
+
+.postProduct-inputs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    background: burlywood;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    border:2px solid green;
+    background: green;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+.submit-btn:focus{
+    background-color: black;
+    border:2px solid black;
+    color: #fff;
+}

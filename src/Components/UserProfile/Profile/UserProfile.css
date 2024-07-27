@@ -1,0 +1,11 @@
+.user-profile{
+    min-height: 100vh;
+    /* background:lawngreen; */
+    margin: 5%;
+    padding: 5%;
+
+}
+
+.profile-element{
+    font-size: 25px;
+}

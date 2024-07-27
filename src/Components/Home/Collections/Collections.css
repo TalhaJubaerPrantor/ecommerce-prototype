@@ -1,0 +1,24 @@
+.collection-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: .5%;
+    width: 100%;
+    /* height: 80vh; */
+    padding: 3%;
+}
+
+.collection-right{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: .5%;
+}
+
+.collection-left{
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+  }

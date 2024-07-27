@@ -1,0 +1,50 @@
+.carousel-container{
+    display: grid;
+    grid-template-columns: 15% 70% 15% ;
+    grid-template-areas: '.. content ..';
+}
+
+.carousel{
+    grid-area: content;
+}
+
+.carousel-item{
+    height: 85vh;
+    width: 100%;
+}
+.carousel-img{
+    height: 85vh;
+}
+
+.carousel-control-prev:hover{
+        background-color: rgba(240, 248, 255, 0);
+}
+
+.carousel-control-next:hover{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.carousel-inner{
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .carousel-container{
+        display: grid;
+        grid-template-columns: 5% 90% 5% ;
+        grid-template-areas: '.. content ..';
+    }
+    
+    .carousel-item{
+        height: 40vh;
+        width: 100%;
+    }
+    .carousel-img{
+        height: 40vh;
+    }
+
+    .carouselExampleControls{
+        height: 40vh;
+    }
+  }

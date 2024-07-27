@@ -1,0 +1,27 @@
+.admin-page{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.admin{
+    width:160px ;
+    text-align: center;
+    margin-top: 30vh;
+
+}
+
+.adminLogin-btn{
+    border:2px solid green;
+    background: green;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.adminLogin-btn:focus{
+    background-color: rgb(2, 155, 2);
+    border:2px solid rgb(2, 155, 2);
+    color: #fff;
+}
